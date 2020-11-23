@@ -1,2 +1,2 @@
-# openclassrooms-project2
-Transformez une maquette en site web
+# OpenClassrooms - Deuxième projet
+Transformez une maquette en site web,
