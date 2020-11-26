@@ -2,25 +2,45 @@
 <html>
 	<head>
 		<meta charset="UTF-8">
-		<title>Reservia - Trouvez votre hébergement pour des vacances de rêve</title>
+		<title>Reservia</title>
+		<meta name="description" content="Trouvez votre hébergement pour des vacances de rêve !">
 		<!-- Favicon -->
 		<link rel="icon" type="image/png" href="assets/img/favicon.png" />
 		<!-- CSS -->
 		<link href="assets/css/style.css" rel="stylesheet">
 		<!-- Raleway -->
 		<link rel="preconnect" href="https://fonts.gstatic.com">
-		<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap">
+		<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap" rel="stylesheet">
 		<!-- Font Awesome -->
 		<link href="assets/fontawesome/css/all.css" rel="stylesheet">
 	</head>
 
 	<body>
 		<!-- Header -->
-		<header class="header">
+		<header>
+			<a href=""><img class="logo" src="assets/img/logo.png" alt="Logo de Reservia"></a>
+
+			<nav>
+				<ul>
+					<li><a href="#accommodations">Hébergements</a></li>
+					<li><a href="#activities">Activités</a></li>
+					<li class="register"><strong><a href="">S'inscrire</a></strong></li>
+				</ul>
+			</nav>
 		</header>
 
 		<!-- Search -->
 		<section class="sectionOne">
+			<h1><strong>Trouvez votre hébergement pour des vacances de rêve</strong></h1>
+			<p>En plein centre ville ou en pleine nature</p>
+
+			<form action="" method="post">
+				<div class="icon">
+					<i class="fas fa-map-marker-alt"></i>
+				</div>	
+				<input type="text" id="location" name="location" placeholder="Marseille, France" text="Marseille, France">
+				<button type="submit">Rechercher</button>
+			</form>
 		</section>
 
 		<!-- Accomodations in Marseille -->
@@ -34,9 +54,9 @@
 		<!-- Activities in Marseille -->
 		<section class="sectionFour">
 		</section>
-		
+
 		<!-- Footer -->
-		<footer class="footer">
+		<footer>
 		</footer>
 	</body>
 </html>

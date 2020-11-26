@@ -1,4 +1,109 @@
-/* Setting font */
-* {
+body {
 	font-family: 'Raleway', sans-serif;
+	width:1340px;
+	margin: auto;
 }
+
+a {
+	text-decoration: none;
+}
+
+a:link {
+	color: inherit
+}
+
+a:visited {
+	color: inherit
+}
+
+a:hover {
+	color: #0065FC;
+} 
+
+button {
+	padding: 12px 17px;
+	border-top-right-radius: 15px;
+	border-bottom-right-radius: 15px;
+	border: none;
+	background-color: #0065FC;
+	color: white;
+	font-size: 1em;
+	cursor: pointer;    
+}
+
+input {
+	padding: 11px;
+	border: 1px solid #F2F2F2;
+	
+  	font-size: 1em;
+  	font-family: 'Raleway', sans-serif;
+  	font-weight: bold;
+
+}
+
+::placeholder {
+  color: black;
+  opacity: 1;
+}
+
+/* Header */
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+}
+
+nav li {
+    margin-left: 70px;
+}
+
+nav .register {
+    color: #0065FC;
+}
+
+header {
+	display: flex;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	padding-top: 25px;
+	padding-bottom: 5px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+.logo {
+	width: 100px;
+    height: 45px;
+}
+
+/* END Header */
+
+/* sectionOne */
+
+.sectionOne {
+	padding-top: 5px;
+	padding-bottom: 25px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+.sectionOne h1{
+	font-size: 1.4em;
+}
+
+.sectionOne .icon {
+	border-top-left-radius: 15px;
+	border-bottom-left-radius: 15px;
+	background-color: #F2F2F2;
+	width: 50px;
+	height: 50px;
+	text-align: center;
+	line-height: 50px;
+}
+
+form {
+	display: flex;
+	flex-wrap: nowrap;
+}
+
+/* END sectionOne */
