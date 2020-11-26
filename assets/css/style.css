@@ -21,40 +21,16 @@ a {
 	text-decoration: none;
 }
 
-a:link {
-	color: initial;
+a:link, a:visited {
+	color: inherit;
 }
 
 a:visited {
-	color: initial;
+	color: inherit;
 }
 
 a:hover {
 	color: #0065FC;
-}
-
-button {
-	padding: 12px 17px;
-	border-top-right-radius: 15px;
-	border-bottom-right-radius: 15px;
-	border: none;
-	background-color: #0065FC;
-	color: white;
-	font-size: 1em;
-	cursor: pointer;    
-}
-
-input {
-	padding: 11px;
-	border: 1px solid #F2F2F2;
-  	font-size: 1em;
-  	font-family: 'Raleway', sans-serif;
-  	font-weight: bold;
-}
-
-::placeholder {
-  color: black;
-  opacity: 1;
 }
 /* END Main parameters */
 
@@ -102,7 +78,7 @@ header nav .register {
 	font-size: 1.4em;
 }
 
-.sectionOne .icon {
+.sectionOne form .icon {
 	border-top-left-radius: 15px;
 	border-bottom-left-radius: 15px;
 	background-color: #F2F2F2;
@@ -112,21 +88,80 @@ header nav .register {
 	line-height: 50px;
 }
 
+.sectionOne form input {
+	padding: 11px;
+	border: 1px solid #F2F2F2;
+  	font-size: 1em;
+  	font-family: 'Raleway', sans-serif;
+  	font-weight: bold;
+}
+
+.sectionOne form ::placeholder {
+	color: black;
+	opacity: 1;
+}
+
+.sectionOne form button {
+	padding: 12px 17px;
+	border-top-right-radius: 15px;
+	border-bottom-right-radius: 15px;
+	border: none;
+	background-color: #0065FC;
+	color: white;
+	font-size: 1em;
+	cursor: pointer;
+}
+
+.sectionOne form .mobileSearch {
+    display: none;
+}
+
+@media screen and (max-width: 440px) {
+  .sectionOne form .search {
+    display: none;
+  }
+  .sectionOne form .mobileSearch {
+    display: initial;
+  }
+}
+
 .sectionOne form {
 	display: flex;
 	flex-wrap: nowrap;
 }
 
-.mobileSearch {
-    display: none;
+.sectionOne .filters {
+	display: flex;
+	flex-wrap: wrap;
+	margin-top: 10px;
+
 }
 
-@media screen and (max-width: 440px) {
-  .search {
-    display: none;
-  }
-  .mobileSearch {
-    display: initial;
-  }
+.sectionOne .filters button {
+	padding: 10px 17px;
+	border: 2px solid #F2F2F2;
+	border-radius: 30px;
+	background-color: white;
+	color: black;
+	font-size: 1em;
+	cursor: pointer; 
+  	margin-left: 20px;
+}
+
+.fa-money-bill-wave, .fa-child, .fa-heart, .fa-dog {
+	color: #0065FC;
+}
+
+.sectionOne .fa-info {
+	border-radius: 50%;
+	border-width: 2px;
+  	border-color: #F2F2F2;
+  	border-style: solid;
+	color: #0065FC;
+	background-color: white;
+	height: 20px;
+  	width: 20px;
+	text-align: center;
+	line-height: 17px;
 }
 /* END sectionOne */
