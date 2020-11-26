@@ -1,7 +1,20 @@
+/* Main parameters */
 body {
 	font-family: 'Raleway', sans-serif;
 	width:1340px;
 	margin: auto;
+}
+
+@media screen and (max-width: 1350px) {
+  body {
+    width:auto;
+  }
+}
+
+@media screen and (max-width: 630px) {
+  nav {
+    display: none;
+  }
 }
 
 a {
@@ -9,16 +22,16 @@ a {
 }
 
 a:link {
-	color: inherit
+	color: initial;
 }
 
 a:visited {
-	color: inherit
+	color: initial;
 }
 
 a:hover {
 	color: #0065FC;
-} 
+}
 
 button {
 	padding: 12px 17px;
@@ -34,33 +47,19 @@ button {
 input {
 	padding: 11px;
 	border: 1px solid #F2F2F2;
-	
   	font-size: 1em;
   	font-family: 'Raleway', sans-serif;
   	font-weight: bold;
-
 }
 
 ::placeholder {
   color: black;
   opacity: 1;
 }
+/* END Main parameters */
+
 
 /* Header */
-
-nav ul {
-    list-style-type: none;
-    display: flex;
-}
-
-nav li {
-    margin-left: 70px;
-}
-
-nav .register {
-    color: #0065FC;
-}
-
 header {
 	display: flex;
 	flex-wrap: nowrap;
@@ -71,15 +70,27 @@ header {
 	padding-right: 20px;
 }
 
-.logo {
+header img {
 	width: 100px;
     height: 45px;
 }
 
+header nav ul {
+    list-style-type: none;
+    display: flex;
+}
+
+header nav li {
+    margin-left: 70px;
+}
+
+header nav .register {
+    color: #0065FC;
+}
 /* END Header */
 
-/* sectionOne */
 
+/* sectionOne */
 .sectionOne {
 	padding-top: 5px;
 	padding-bottom: 25px;
@@ -95,15 +106,27 @@ header {
 	border-top-left-radius: 15px;
 	border-bottom-left-radius: 15px;
 	background-color: #F2F2F2;
-	width: 50px;
-	height: 50px;
+	min-width: 50px;
+	min-height: 50px;
 	text-align: center;
 	line-height: 50px;
 }
 
-form {
+.sectionOne form {
 	display: flex;
 	flex-wrap: nowrap;
 }
 
+.mobileSearch {
+    display: none;
+}
+
+@media screen and (max-width: 440px) {
+  .search {
+    display: none;
+  }
+  .mobileSearch {
+    display: initial;
+  }
+}
 /* END sectionOne */
