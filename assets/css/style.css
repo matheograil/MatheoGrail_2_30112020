@@ -1,20 +1,21 @@
 /* Main parameters */
 body {
 	font-family: 'Raleway', sans-serif;
-	width:1340px;
+	width:1350px;
+	min-width: 375px;
 	margin: auto;
 }
 
 @media screen and (max-width: 1350px) {
-  body {
-    width:auto;
-  }
+	body {
+		width:auto;
+	}
 }
 
 @media screen and (max-width: 630px) {
-  nav {
-    display: none;
-  }
+	nav {
+		display: none;
+	}
 }
 
 a {
@@ -40,10 +41,7 @@ header {
 	display: flex;
 	flex-wrap: nowrap;
 	justify-content: space-between;
-	padding-top: 25px;
-	padding-bottom: 5px;
-	padding-left: 20px;
-	padding-right: 20px;
+	padding: 15px;
 }
 
 header img {
@@ -68,14 +66,11 @@ header nav .register {
 
 /* sectionOne */
 .sectionOne {
-	padding-top: 5px;
-	padding-bottom: 25px;
-	padding-left: 20px;
-	padding-right: 20px;
+	padding: 15px;
 }
 
 .sectionOne h1{
-	font-size: 1.4em;
+	font-size: 1.5em;
 }
 
 .sectionOne form .icon {
@@ -89,7 +84,7 @@ header nav .register {
 }
 
 .sectionOne form input {
-	padding: 11px;
+	padding: 10px;
 	border: 1px solid #F2F2F2;
   	font-size: 1em;
   	font-family: 'Raleway', sans-serif;
@@ -102,7 +97,7 @@ header nav .register {
 }
 
 .sectionOne form button {
-	padding: 12px 17px;
+	padding: 17px;
 	border-top-right-radius: 15px;
 	border-bottom-right-radius: 15px;
 	border: none;
@@ -117,12 +112,12 @@ header nav .register {
 }
 
 @media screen and (max-width: 440px) {
-  .sectionOne form .search {
-    display: none;
-  }
-  .sectionOne form .mobileSearch {
-    display: initial;
-  }
+	.sectionOne form .search {
+		display: none;
+	}
+	.sectionOne form .mobileSearch {
+		display: initial;
+	}
 }
 
 .sectionOne form {
@@ -132,9 +127,7 @@ header nav .register {
 
 .sectionOne .filters {
 	display: flex;
-	flex-wrap: wrap;
-	margin-top: 10px;
-
+	flex-wrap: nowrap;
 }
 
 .sectionOne .filters button {
@@ -148,8 +141,14 @@ header nav .register {
   	margin-left: 20px;
 }
 
-.fa-money-bill-wave, .fa-child, .fa-heart, .fa-dog {
+.sectionOne .filters button .fa-money-bill-wave, .fa-child, .fa-heart, .fa-dog {
 	color: #0065FC;
+}
+
+@media screen and (max-width: 790px) {
+	.sectionOne .filters button {
+		margin-bottom: 5px;
+	}
 }
 
 .sectionOne .fa-info {
@@ -162,6 +161,68 @@ header nav .register {
 	height: 20px;
   	width: 20px;
 	text-align: center;
-	line-height: 17px;
+	line-height: 21px;
 }
 /* END sectionOne */
+
+
+/* sectionTwo */
+.sectionTwo {
+	padding: 15px;
+}
+
+.sectionTwo .accommodations{
+	padding: 20px;
+	border-radius: 15px;
+	background-color: #F2F2F2;
+	width: 825px;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.sectionTwo .accommodations .description {
+	font-size: 1.25em;
+}
+
+.sectionTwo .accommodations .elements{
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.sectionTwo .accommodations .elements .element{
+	border-radius: 20px;
+	width: 245px;
+	height: 190px;
+	background-color: white;
+	margin:15px;
+}
+
+.sectionTwo .accommodations .elements .element img{
+	border-top-right-radius: 15px;
+	border-top-left-radius: 15px;
+	width: 235px;
+    height: 110px;
+    margin: 5px;
+    object-fit: cover;
+}
+
+.sectionTwo .accommodations p{
+    margin: 15px;
+}
+
+.sectionTwo .accommodations .elements .element .text{
+	margin-left: 20px;
+    margin-right: 20px;
+}
+
+.sectionTwo .accommodations .elements .element .price{
+	font-size: 0.8em;
+}
+
+@media screen and (max-width: 895px) {
+	.sectionTwo .accommodations {
+		width:auto;
+	}
+}
+
+/* END sectionTwo */
