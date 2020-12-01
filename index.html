@@ -18,7 +18,7 @@
 	<body>
 		<!-- Header -->
 		<header>
-			<a href=""><img src="assets/img/logo.png" alt="Logo de Reservia"></a>
+			<a href=""><img src="assets/img/logo.png"></a>
 			<nav>
 				<ul>
 					<li><a href="#accommodations">Hébergements</a></li>
@@ -33,22 +33,22 @@
 			<h1>Trouvez votre hébergement pour des vacances de rêve</h1>
 			<p>En plein centre ville ou en pleine nature</p>
 			<form action="" method="post">
-				<i class="icon fas fa-map-marker-alt"></i>
+				<i class="fas fa-map-marker-alt"></i>
 				<input type="text" id="location" name="location" placeholder="Marseille, France">
 				<button class="search" type="submit">Rechercher</button>
 				<button class="mobileSearch" type="submit"><i class="fas fa-search"></i></button>
 			</form>
 			<div class="filters">
 				<p class="description bold">Filtres</p>
-				<button><i class="fas fa-money-bill-wave"></i> Économique</button>
-				<button><i class="fas fa-child"></i> Famillial</button>
-				<button><i class="fas fa-heart"></i> Romantique</button>
-				<button><i class="fas fa-dog"></i> Animaux autorisés</button>
+				<button><i class="fas fa-money-bill-wave blue"></i> Économique</button>
+				<button><i class="fas fa-child blue"></i> Famillial</button>
+				<button><i class="fas fa-heart blue"></i> Romantique</button>
+				<button><i class="fas fa-dog blue"></i> Animaux autorisés</button>
 			</div>
 			<p><i class="fas fa-info fa-xs"></i> Plus de 500 logements sont disponibles dans cette ville</p>
 		</section>
 
-		<!-- Accomodations in Marseille -->
+		<!-- Accomodations in Marseille and Most Popular-->
 		<section class="sectionTwo" id="accommodations">
 			<div class="accommodations">
 				<p class="description bold">Hébergements à Marseille</p>
@@ -146,19 +146,60 @@
 						</div>
 					</div>
 				</div>
-				<p><a href=""><span class="bold">Afficher plus</span></p>
+				<p><a href=""><span class="bold">Afficher plus</span></a></p>
 			</div>
-		</section>
-
-		<!-- Most Popular -->
-		<section class="sectionThree">
 			<div class="mostpopular">
-				
+				<p class="description bold"> Les plus populaires</p>
+				<div class="elements">
+					<div class="element">
+						<img src="assets/img/sectionTwo/7.jpg">
+						<div class="info">
+							<span class="bold">Hôtel Le soleil du matin</span>
+							<div class="price">Nuit à partir de 128<span class="bold">€</span></div>
+							<div class="rating">
+								<i class="fas fa-star fa-xs blue"></i>
+								<i class="fas fa-star fa-xs blue"></i>
+								<i class="fas fa-star fa-xs blue"></i>
+								<i class="fas fa-star fa-xs blue"></i>
+								<i class="fas fa-star fa-xs blue"></i>
+							</div>
+						</div>
+					</div>
+					<div class="element">
+						<img src="assets/img/sectionTwo/8.jpg">
+						<div class="info">
+							<span class="bold">Au cœur de l'eau Chambres d'hôtes</span>
+							<div class="price">Nuit à partir de 71<span class="bold">€</span></div>
+							<div class="rating">
+								<i class="fas fa-star fa-xs blue"></i>
+								<i class="fas fa-star fa-xs blue"></i>
+								<i class="fas fa-star fa-xs blue"></i>
+								<i class="fas fa-star fa-xs blue"></i>
+								<i class="fas fa-star fa-xs grey"></i>
+							</div>
+						</div>
+					</div>
+					<div class="element">
+						<img src="assets/img/sectionTwo/9.jpg">
+						<div class="info">
+							<span class="bold">Hôtel Tout bleu et Blanc</span>
+							<div class="price">Nuit à partir de 28<span class="bold">€</span></div>
+							<div class="rating">
+								<i class="fas fa-star fa-xs blue"></i>
+								<i class="fas fa-star fa-xs blue"></i>
+								<i class="fas fa-star fa-xs blue"></i>
+								<i class="fas fa-star fa-xs blue"></i>
+								<i class="fas fa-star fa-xs grey"></i>
+							</div>
+						</div>
+					</div>
+				</div>
 			</div>
 		</section>
 
 		<!-- Activities in Marseille -->
-		<section class="sectionFour">
+		<section class="sectionThree" id="activities">
+			<p class="description bold">Activités à Marseille</p>
 		</section>
 
 		<!-- Footer -->

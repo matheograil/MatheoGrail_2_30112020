@@ -1,4 +1,4 @@
-/* Main parameters */
+/**************************************** Main parameters ****************************************/
 body {
 	font-family: 'Raleway', sans-serif;
 	width:1350px;
@@ -26,6 +26,14 @@ a:hover {
 	font-weight: bold;
 }
 
+.blue {
+	color: #0065FC;
+}
+
+.grey {
+	color: #F2F2F2;
+}
+
 @media screen and (max-width: 1350px) {
 	body {
 		width:auto;
@@ -37,10 +45,10 @@ a:hover {
 		display: none;
 	}
 }
-/* END Main parameters */
+/**************************************** END Main parameters ****************************************/
 
 
-/* Header */
+/**************************************** Header ****************************************/
 header {
 	display: flex;
 	flex-wrap: nowrap;
@@ -48,7 +56,7 @@ header {
 	padding: 15px;
 }
 
-header img {
+header a img {
 	width: 100px;
     height: 45px;
 }
@@ -65,10 +73,10 @@ header nav ul .register {
 header nav li {
     margin-left: 70px;
 }
-/* END Header */
+/**************************************** END Header ****************************************/
 
 
-/* sectionOne */
+/**************************************** sectionOne ****************************************/
 .sectionOne {
 	padding: 15px;
 }
@@ -82,7 +90,7 @@ header nav li {
 	flex-wrap: nowrap;
 }
 
-.sectionOne form .icon {
+.sectionOne form .fa-map-marker-alt {
 	border-top-left-radius: 15px;
 	border-bottom-left-radius: 15px;
 	background-color: #F2F2F2;
@@ -138,11 +146,7 @@ header nav li {
 	margin-bottom: 5px;
 }
 
-.sectionOne .filters button .fa-money-bill-wave, .fa-child, .fa-heart, .fa-dog {
-	color: #0065FC;
-}
-
-.sectionOne .fa-info {
+.sectionOne p .fa-info {
 	border-radius: 50%;
 	border-width: 2px;
   	border-color: #F2F2F2;
@@ -163,12 +167,14 @@ header nav li {
 		display: initial;
 	}
 }
-/* END sectionOne */
+/**************************************** END sectionOne ****************************************/
 
 
-/* sectionTwo */
+/**************************************** sectionTwo ****************************************/
 .sectionTwo {
 	padding: 15px;
+	display: flex;
+	flex-wrap: wrap;
 }
 
 .sectionTwo .accommodations {
@@ -195,7 +201,6 @@ header nav li {
 
 .sectionTwo .accommodations .elements .element {
 	box-shadow: 0px 0px 16px 0px rgba(119, 119, 119, 0.3);
-	-moz-box-shadow: 0px 0px 16px 0px rgba(119, 119, 119, 0.3);
 	-webkit-box-shadow: 0px 0px 16px 0px rgba(119, 119, 119, 0.3);
 	border-radius: 20px;
 	width: 245px;
@@ -222,25 +227,65 @@ header nav li {
 	font-size: 0.8em;
 }
 
-.sectionTwo .accommodations .elements .element .info .rating .blue{
-	color: #0065FC;
-}
-.sectionTwo .accommodations .elements .element .info .rating .grey{
-	color: #F2F2F2;
-}
-
-@media screen and (max-width: 895px) {
-	.sectionTwo .accommodations {
-		width:auto;
-	}
+.sectionTwo .mostpopular {
+	padding: 20px;
+	margin-left: 30px;
+	border-radius: 15px;
+	background-color: #F2F2F2;
+	width: 380px;
+	display: flex;
+	flex-wrap: wrap;
 }
 
-@media screen and (max-width: 895px) {
-	.sectionTwo .accommodations {
-		width:auto;
-	}
+.sectionTwo .mostpopular p {
+    margin: 15px;
 }
-/* END sectionTwo */
 
-/* sectionThree */
-/* END sectionThree */
+.sectionTwo .mostpopular .description {
+	font-size: 1.25em;
+}
+
+.sectionTwo .mostpopular .elements {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.sectionTwo .mostpopular .elements .element {
+	box-shadow: 0px 0px 16px 0px rgba(119, 119, 119, 0.3);
+	-webkit-box-shadow: 0px 0px 16px 0px rgba(119, 119, 119, 0.3);
+	border-radius: 20px;
+	width: 350px;
+	height: 132px;
+	background-color: white;
+	margin:15px;
+	display: flex;
+	flex-wrap: nowrap;
+}
+
+.sectionTwo .mostpopular .elements .element img {
+	border-bottom-left-radius: 15px;
+	border-top-left-radius: 15px;
+	width: 120px;
+    height: 124px;
+    margin: 4px;
+	object-fit: cover;
+}
+
+.sectionTwo .mostpopular .elements .element .info {
+	margin: 15px;
+}
+
+.sectionTwo .mostpopular .elements .element .info .price {
+	font-size: 0.8em;
+}
+/**************************************** END sectionTwo ****************************************/
+
+/**************************************** sectionThree ****************************************/
+.sectionThree {
+	padding: 15px;
+}
+
+.sectionThree .description {
+	font-size: 1.25em;
+}
+/**************************************** END sectionThree ****************************************/
