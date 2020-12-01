@@ -18,110 +18,143 @@
 	<body>
 		<!-- Header -->
 		<header>
-
 			<a href=""><img src="assets/img/logo.png" alt="Logo de Reservia"></a>
-
 			<nav>
 				<ul>
 					<li><a href="#accommodations">Hébergements</a></li>
 					<li><a href="#activities">Activités</a></li>
-					<li class="register"><strong><a href="">S'inscrire</a></strong></li>
+					<li class="register bold"><a href="">S'inscrire</a></li>
 				</ul>
 			</nav>
-
 		</header>
 
 		<!-- Search -->
 		<section class="sectionOne">
-
-			<h1><strong>Trouvez votre hébergement pour des vacances de rêve</strong></h1>
-
+			<h1>Trouvez votre hébergement pour des vacances de rêve</h1>
 			<p>En plein centre ville ou en pleine nature</p>
-
 			<form action="" method="post">
 				<i class="icon fas fa-map-marker-alt"></i>
 				<input type="text" id="location" name="location" placeholder="Marseille, France">
 				<button class="search" type="submit">Rechercher</button>
 				<button class="mobileSearch" type="submit"><i class="fas fa-search"></i></button>
 			</form>
-
 			<div class="filters">
-				<p><strong>Filtres</strong>
+				<p class="description bold">Filtres</p>
 				<button><i class="fas fa-money-bill-wave"></i> Économique</button>
 				<button><i class="fas fa-child"></i> Famillial</button>
 				<button><i class="fas fa-heart"></i> Romantique</button>
-				<button><i class="fas fa-dog"></i> Animaux autorisés</button></p>
+				<button><i class="fas fa-dog"></i> Animaux autorisés</button>
 			</div>
-
 			<p><i class="fas fa-info fa-xs"></i> Plus de 500 logements sont disponibles dans cette ville</p>
-
 		</section>
 
 		<!-- Accomodations in Marseille -->
-		<section id="accommodations" class="sectionTwo">
+		<section class="sectionTwo" id="accommodations">
 			<div class="accommodations">
-				<p class="description"><strong>Hébergements à Marseille</strong></p>
+				<p class="description bold">Hébergements à Marseille</p>
 				<div class="elements">
 					<div class="element">
 						<img src="assets/img/sectionTwo/1.jpg">
-						<div class="text">
-							<strong>Auberge la Cannebière</strong>
-							<div class="price">Nuit à partir de <strong>25€</strong></div>
-							<i style="color: #0065FC;" class="fas fa-star fa-xs"></i><i style="color: #0065FC;" class="fas fa-star fa-xs"></i><i style="color: #0065FC;" class="fas fa-star fa-xs"></i><i style="color: #0065FC;" class="fas fa-star fa-xs"></i><i style="color: #F2F2F2;" class="fas fa-star fa-xs"></i>
+						<div class="info">
+							<span class="bold">Auberge la Cannebière</span>
+							<div class="price">Nuit à partir de <span class="bold">25€</span></div>
+							<div class="rating">
+								<i class="fas fa-star fa-xs blue"></i>
+								<i class="fas fa-star fa-xs blue"></i>
+								<i class="fas fa-star fa-xs blue"></i>
+								<i class="fas fa-star fa-xs blue"></i>
+								<i class="fas fa-star fa-xs grey"></i>
+							</div>
 						</div>
 					</div>
-
 					<div class="element">
 						<img src="assets/img/sectionTwo/2.jpg">
-						<div class="text">
-							<strong>Hôtel du port</strong>
-							<div class="price">Nuit à partir de 52<strong>€</strong></div>
-							<i style="color: #0065FC;" class="fas fa-star fa-xs"></i><i style="color: #0065FC;" class="fas fa-star fa-xs"></i><i style="color: #0065FC;" class="fas fa-star fa-xs"></i><i style="color: #0065FC;" class="fas fa-star fa-xs"></i><i style="color: #0065FC;" class="fas fa-star fa-xs"></i>
+						<div class="info">
+							<span class="bold">Hôtel du port</span>
+							<div class="price">Nuit à partir de 52<span class="bold">€</span></div>
+							<div class="rating">
+								<i class="fas fa-star fa-xs blue"></i>
+								<i class="fas fa-star fa-xs blue"></i>
+								<i class="fas fa-star fa-xs blue"></i>
+								<i class="fas fa-star fa-xs blue"></i>
+								<i class="fas fa-star fa-xs blue"></i>
+							</div>
 						</div>
 					</div>
-
 					<div class="element">
 						<img src="assets/img/sectionTwo/3.jpg">
-						<div class="text">
-							<strong>Hôtel Les mouettes</strong>
-							<div class="price">Nuit à partir de 76<strong>€</strong></div>
-							<i style="color: #0065FC;" class="fas fa-star fa-xs"></i><i style="color: #0065FC;" class="fas fa-star fa-xs"></i><i style="color: #0065FC;" class="fas fa-star fa-xs"></i><i style="color: #0065FC;" class="fas fa-star fa-xs"></i><i style="color: #F2F2F2;" class="fas fa-star fa-xs"></i>
+						<div class="info">
+							<span class="bold">Hôtel Les mouettes</span>
+							<div class="price">
+								Nuit à partir de 76<span class="bold">€</span>
+							</div>
+							<div class="rating">
+								<i class="fas fa-star fa-xs blue"></i>
+								<i class="fas fa-star fa-xs blue"></i>
+								<i class="fas fa-star fa-xs blue"></i>
+								<i class="fas fa-star fa-xs blue"></i>
+								<i class="fas fa-star fa-xs grey"></i>
+							</div>
 						</div>
 					</div>
-
 					<div class="element">
 						<img src="assets/img/sectionTwo/4.jpg">
-						<div class="text">
-							<strong>Hôtel de la mer</strong>
-							<div class="price">Nuit à partir de 46<strong>€</strong></div>
-							<i style="color: #0065FC;" class="fas fa-star fa-xs"></i><i style="color: #0065FC;" class="fas fa-star fa-xs"></i><i style="color: #0065FC;" class="fas fa-star fa-xs"></i><i style="color: #F2F2F2;" class="fas fa-star fa-xs"></i><i style="color: #F2F2F2;" class="fas fa-star fa-xs"></i>
+						<div class="info">
+							<span class="bold">Hôtel de la mer</span>
+							<div class="price">
+								Nuit à partir de 46<span class="bold">€</span>
+							</div>
+							<div class="rating">
+								<i class="fas fa-star fa-xs blue"></i>
+								<i class="fas fa-star fa-xs blue"></i>
+								<i class="fas fa-star fa-xs blue"></i>
+								<i class="fas fa-star fa-xs grey"></i>
+								<i class="fas fa-star fa-xs grey"></i>
+							</div>
 						</div>
 					</div>
-
 					<div class="element">
 						<img src="assets/img/sectionTwo/5.jpg">
-						<div class="text">
-							<strong>Auberge Le Panier</strong>
-							<div class="price">Nuit à partir de <strong>23€</strong></div>
-							<i style="color: #0065FC;" class="fas fa-star fa-xs"></i><i style="color: #0065FC;" class="fas fa-star fa-xs"></i><i style="color: #0065FC;" class="fas fa-star fa-xs"></i><i style="color: #0065FC;" class="fas fa-star fa-xs"></i><i style="color: #F2F2F2;" class="fas fa-star fa-xs"></i>
+						<div class="info">
+							<span class="bold">Auberge Le Panier</span>
+							<div class="price">
+								Nuit à partir de <span class="bold">23€</span>
+							</div>
+							<div class="rating">
+								<i class="fas fa-star fa-xs blue"></i>
+								<i class="fas fa-star fa-xs blue"></i>
+								<i class="fas fa-star fa-xs blue"></i>
+								<i class="fas fa-star fa-xs blue"></i>
+								<i class="fas fa-star fa-xs grey"></i>
+							</div>
 						</div>
 					</div>
-
 					<div class="element">
 						<img src="assets/img/sectionTwo/6.jpg">
-						<div class="text">
-							<strong>Hôtel chez Amina</strong>
-							<div class="price">Nuit à partir de 96<strong>€</strong></div>
-							<i style="color: #0065FC;" class="fas fa-star fa-xs"></i><i style="color: #0065FC;" class="fas fa-star fa-xs"></i><i style="color: #0065FC;" class="fas fa-star fa-xs"></i><i style="color: #0065FC;" class="fas fa-star fa-xs"></i><i style="color: #0065FC;" class="fas fa-star fa-xs"></i>
+						<div class="info">
+							<span class="bold">Hôtel chez Amina</span>
+							<div class="price">
+								Nuit à partir de 96<span class="bold">€</span>
+							</div>
+							<div class="rating">
+								<i class="fas fa-star fa-xs blue"></i>
+								<i class="fas fa-star fa-xs blue"></i>
+								<i class="fas fa-star fa-xs blue"></i>
+								<i class="fas fa-star fa-xs blue"></i>
+								<i class="fas fa-star fa-xs blue"></i>
+							</div>
 						</div>
 					</div>
 				</div>
-				<p><a href=""><strong>Afficher plus</strong></a>
+				<p><a href=""><span class="bold">Afficher plus</span></p>
 			</div>
 		</section>
 
 		<!-- Most Popular -->
 		<section class="sectionThree">
+			<div class="mostpopular">
+				
+			</div>
 		</section>
 
 		<!-- Activities in Marseille -->
