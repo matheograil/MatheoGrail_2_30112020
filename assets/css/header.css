@@ -1,0 +1,25 @@
+/**************************************** Header ****************************************/
+header {
+	display: flex;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	padding: 15px;
+}
+
+header a img {
+	width: 100px;
+    height: 45px;
+}
+
+header nav ul {
+    list-style-type: none;
+    display: flex;
+}
+
+header nav ul .register {
+	color: #0065FC;
+}
+
+header nav li {
+    margin-left: 70px;
+}

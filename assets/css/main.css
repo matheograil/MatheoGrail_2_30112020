@@ -1,0 +1,53 @@
+/**************************************** Main ****************************************/
+body {
+	font-family: 'Raleway', sans-serif;
+	width:1350px;
+	min-width: 375px;
+	margin: auto;
+}
+
+p, h1 {
+	margin: 10px 0 10px 0;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:link, a:visited {
+	color: inherit;
+}
+
+a:visited {
+	color: inherit;
+}
+
+a:hover {
+	color: #0065FC;
+}
+
+.bold {
+	font-weight: bold;
+}
+
+.blue {
+	color: #0065FC;
+}
+
+.grey {
+	color: #F2F2F2;
+}
+
+/**************************************** Media queries ****************************************/
+
+@media screen and (max-width: 1350px) {
+	body {
+		width:auto;
+	}
+}
+
+@media screen and (max-width: 630px) {
+	nav {
+		display: none;
+	}
+}
