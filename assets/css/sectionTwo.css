@@ -1,0 +1,114 @@
+/**************************************** sectionTwo ****************************************/
+.sectionTwo {
+	width: 1350px;
+	min-width: 375px;
+	margin: auto;
+	padding: 15px;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.sectionTwo .accommodations {
+	padding: 20px;
+	border-radius: 15px;
+	background-color: #F2F2F2;
+	width: 825px;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.sectionTwo .accommodations p {
+    margin: 15px;
+}
+
+.sectionTwo .accommodations .description {
+	font-size: 1.25em;
+}
+
+.sectionTwo .accommodations .elements {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.sectionTwo .accommodations .elements a .element {
+	box-shadow: 0px 0px 16px 0px rgba(119, 119, 119, 0.3);
+	-webkit-box-shadow: 0px 0px 16px 0px rgba(119, 119, 119, 0.3);
+	border-radius: 20px;
+	height: 190px;
+	background-color: white;
+	margin: 15px;
+}
+
+.sectionTwo .accommodations .elements a .element img {
+	border-top-right-radius: 15px;
+	border-top-left-radius: 15px;
+	width: 237px;
+    height: 110px;
+    margin: 4px;
+    object-fit: cover;
+}
+
+.sectionTwo .accommodations .elements a .element .info {
+	margin-left: 20px;
+    margin-right: 20px;
+}
+
+.sectionTwo .accommodations .elements a .element .info .price {
+	font-size: 0.8em;
+}
+
+.sectionTwo .mostpopular {
+	padding: 20px;
+	margin-left: 40px;
+	border-radius: 15px;
+	background-color: #F2F2F2;
+	width: 405px;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.sectionTwo .mostpopular p {
+    margin: 15px;
+}
+
+.sectionTwo .mostpopular .description {
+	font-size: 1.25em;
+	width: 100%;
+}
+
+.sectionTwo .mostpopular .description .fa-chart-line {
+	float: right;
+}
+
+.sectionTwo .mostpopular .elements {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.sectionTwo .mostpopular .elements a .element {
+	box-shadow: 0px 0px 16px 0px rgba(119, 119, 119, 0.3);
+	-webkit-box-shadow: 0px 0px 16px 0px rgba(119, 119, 119, 0.3);
+	border-radius: 20px;
+	width: 375px;
+	height: 133px;
+	background-color: white;
+	margin: 15px;
+	display: flex;
+	flex-wrap: nowrap;
+}
+
+.sectionTwo .mostpopular .elements a .element img {
+	border-bottom-left-radius: 15px;
+	border-top-left-radius: 15px;
+	width: 120px;
+    margin: 4px;
+	object-fit: cover;
+}
+
+.sectionTwo .mostpopular .elements a .element .info {
+	margin: 15px;
+}
+
+.sectionTwo .mostpopular .elements a .element .info .price {
+	font-size: 0.8em;
+}

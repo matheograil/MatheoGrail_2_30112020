@@ -1,0 +1,76 @@
+/**************************************** sectionThree ****************************************/
+.sectionThree {
+	width:1350px;
+	min-width: 375px;
+	margin: auto;
+}
+
+.sectionThree .description {
+	font-size: 1.25em;
+}
+
+.sectionThree .elements {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.sectionThree .elements .elementFirstType {
+	box-shadow: 0px 0px 16px 0px rgba(119, 119, 119, 0.3);
+	-webkit-box-shadow: 0px 0px 16px 0px rgba(119, 119, 119, 0.3);
+	border-radius: 20px;
+	height: 452px;
+	margin-right: 30px;
+}
+
+.sectionThree .elements .elementFirstType img {
+	border-top-right-radius: 15px;
+	border-top-left-radius: 15px;
+	width: 307px;
+    height: 400px;
+    margin: 4px;
+    object-fit: cover;
+}
+
+.sectionThree .elements .elementSecondType {
+	box-shadow: 0px 0px 16px 0px rgba(119, 119, 119, 0.3);
+	-webkit-box-shadow: 0px 0px 16px 0px rgba(119, 119, 119, 0.3);
+	border-radius: 20px;
+	height: 230px;
+	margin-bottom: 30px;
+}
+
+.sectionThree .elements .elementSecondType img {
+	border-top-right-radius: 15px;
+	border-top-left-radius: 15px;
+	width: 307px;
+    height: 180px;
+	margin: 4px;
+    object-fit: cover;
+}
+
+.sectionThree .elements .elementThirdType {
+	box-shadow: 0px 0px 16px 0px rgba(119, 119, 119, 0.3);
+	-webkit-box-shadow: 0px 0px 16px 0px rgba(119, 119, 119, 0.3);
+	border-radius: 20px;
+	width: auto;
+	height: 192px;
+	margin-bottom: 30px;
+}
+
+.sectionThree .elements .elementsBlockFirstType {
+	margin-right: 30px;
+}
+
+.sectionThree .elements .elementThirdType img {
+	border-top-right-radius: 15px;
+	border-top-left-radius: 15px;
+	width: 307px;
+    height: 140px;
+    margin: 4px;
+    object-fit: cover;
+}
+
+.sectionThree .elements .info {
+	margin: 15px;
+	line-height: 0px;
+}

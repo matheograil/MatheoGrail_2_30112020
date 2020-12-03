@@ -1,0 +1,17 @@
+/* Main */
+@import url("main.css");
+
+/* Header */
+@import url("header.css");
+
+/* sectionOne */
+@import url("sectionOne.css");
+
+/* sectionTwo */
+@import url("sectionTwo.css");
+
+/* sectionThree */
+@import url("sectionThree.css");
+
+/* Footer */
+@import url("footer.css");

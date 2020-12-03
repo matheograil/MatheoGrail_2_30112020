@@ -1,0 +1,82 @@
+/**************************************** sectionOne ****************************************/
+.sectionOne {
+	padding: 15px;
+	width: 1350px;
+	min-width: 375px;
+	margin: auto;
+}
+
+.sectionOne h1 {
+	font-size: 1.5em;
+}
+
+.sectionOne form {
+	display: flex;
+	flex-wrap: nowrap;
+	padding: 10px 0 10px 0;
+}
+
+.sectionOne form .fa-map-marker-alt {
+	border-top-left-radius: 15px;
+	border-bottom-left-radius: 15px;
+	background-color: #F2F2F2;
+	min-width: 50px;
+	min-height: 50px;
+	text-align: center;
+	line-height: 50px;
+}
+
+.sectionOne form input {
+	padding: 10px; /* Issue here */
+	border: 1px solid #F2F2F2;
+  	font-size: 1em;
+  	font-family: 'Raleway', sans-serif;
+}
+
+.sectionOne form ::placeholder {
+	opacity: 1;
+	color: black;
+}
+
+.sectionOne form button {
+	padding: 15px;
+	border-top-right-radius: 15px;
+	border-bottom-right-radius: 15px;
+	border: none;
+	background-color: #0065FC;
+	color: white;
+	font-size: 1em;
+	cursor: pointer;
+}
+
+.sectionOne form .mobileSearch {
+    display: none;
+}
+
+.sectionOne .filters {
+	padding: 10px 0 10px 0;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.sectionOne .filters button {
+	padding: 10px 20px;
+	border: 2px solid #F2F2F2;
+	border-radius: 30px;
+	background-color: white;
+	font-size: 1em;
+	cursor: pointer; 
+	margin-left: 20px;
+}
+
+.sectionOne p .fa-info {
+	border-radius: 50%;
+	border-width: 2px;
+  	border-color: #F2F2F2;
+  	border-style: solid;
+	color: #0065FC;
+	height: 20px;
+  	width: 20px;
+	text-align: center;
+	line-height: 20px;
+}

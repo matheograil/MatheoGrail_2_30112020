@@ -1,0 +1,28 @@
+/**************************************** Main ****************************************/
+body {
+	font-family: 'Raleway', sans-serif;
+}
+
+p, h1 {
+	margin: 10px 0 10px 0;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:link, a:visited {
+	color: inherit;
+}
+
+a:hover, .blue {
+	color: #0065FC;
+}
+
+.bold {
+	font-weight: bold;
+}
+
+.grey {
+	color: #F2F2F2;
+}
