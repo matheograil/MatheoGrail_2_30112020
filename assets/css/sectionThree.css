@@ -1,6 +1,8 @@
 /**************************************** sectionThree ****************************************/
-.sectionThree p {
-    margin: 15px;
+.sectionThree {
+	width:1350px;
+	min-width: 375px;
+	margin: auto;
 }
 
 .sectionThree .description {
@@ -16,16 +18,15 @@
 	box-shadow: 0px 0px 16px 0px rgba(119, 119, 119, 0.3);
 	-webkit-box-shadow: 0px 0px 16px 0px rgba(119, 119, 119, 0.3);
 	border-radius: 20px;
-	width: auto;
-	height: 440px;
-	margin: 15px;
+	height: 452px;
+	margin-right: 30px;
 }
 
 .sectionThree .elements .elementFirstType img {
 	border-top-right-radius: 15px;
 	border-top-left-radius: 15px;
-	width: 298px;
-    height: 390px;
+	width: 307px;
+    height: 400px;
     margin: 4px;
     object-fit: cover;
 }
@@ -34,17 +35,16 @@
 	box-shadow: 0px 0px 16px 0px rgba(119, 119, 119, 0.3);
 	-webkit-box-shadow: 0px 0px 16px 0px rgba(119, 119, 119, 0.3);
 	border-radius: 20px;
-	width: auto;
-	height: 233px;
-	margin:15px;
+	height: 230px;
+	margin-bottom: 30px;
 }
 
 .sectionThree .elements .elementSecondType img {
 	border-top-right-radius: 15px;
 	border-top-left-radius: 15px;
-	width: 298px;
+	width: 307px;
     height: 180px;
-    margin: 4px;
+	margin: 4px;
     object-fit: cover;
 }
 
@@ -53,14 +53,18 @@
 	-webkit-box-shadow: 0px 0px 16px 0px rgba(119, 119, 119, 0.3);
 	border-radius: 20px;
 	width: auto;
-	height: 193px;
-	margin:15px;
+	height: 192px;
+	margin-bottom: 30px;
+}
+
+.sectionThree .elements .elementsBlockFirstType {
+	margin-right: 30px;
 }
 
 .sectionThree .elements .elementThirdType img {
 	border-top-right-radius: 15px;
 	border-top-left-radius: 15px;
-	width: 298px;
+	width: 307px;
     height: 140px;
     margin: 4px;
     object-fit: cover;

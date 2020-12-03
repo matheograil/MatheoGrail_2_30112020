@@ -1,6 +1,9 @@
 /**************************************** sectionTwo ****************************************/
 .sectionTwo {
-	padding: 20px;
+	width: 1350px;
+	min-width: 375px;
+	margin: auto;
+	padding: 15px;
 	display: flex;
 	flex-wrap: wrap;
 }
@@ -31,7 +34,6 @@
 	box-shadow: 0px 0px 16px 0px rgba(119, 119, 119, 0.3);
 	-webkit-box-shadow: 0px 0px 16px 0px rgba(119, 119, 119, 0.3);
 	border-radius: 20px;
-	width: auto;
 	height: 190px;
 	background-color: white;
 	margin: 15px;
@@ -57,10 +59,10 @@
 
 .sectionTwo .mostpopular {
 	padding: 20px;
-	margin-left: 30px;
+	margin-left: 40px;
 	border-radius: 15px;
 	background-color: #F2F2F2;
-	width: 375px;
+	width: 405px;
 	display: flex;
 	flex-wrap: wrap;
 }
@@ -71,6 +73,11 @@
 
 .sectionTwo .mostpopular .description {
 	font-size: 1.25em;
+	width: 100%;
+}
+
+.sectionTwo .mostpopular .description .fa-chart-line {
+	float: right;
 }
 
 .sectionTwo .mostpopular .elements {
@@ -82,8 +89,8 @@
 	box-shadow: 0px 0px 16px 0px rgba(119, 119, 119, 0.3);
 	-webkit-box-shadow: 0px 0px 16px 0px rgba(119, 119, 119, 0.3);
 	border-radius: 20px;
-	width: 345px;
-	height: 132px;
+	width: 375px;
+	height: 133px;
 	background-color: white;
 	margin: 15px;
 	display: flex;
@@ -94,7 +101,6 @@
 	border-bottom-left-radius: 15px;
 	border-top-left-radius: 15px;
 	width: 120px;
-    height: auto;
     margin: 4px;
 	object-fit: cover;
 }

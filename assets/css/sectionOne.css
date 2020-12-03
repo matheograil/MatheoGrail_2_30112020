@@ -1,6 +1,9 @@
 /**************************************** sectionOne ****************************************/
 .sectionOne {
 	padding: 15px;
+	width: 1350px;
+	min-width: 375px;
+	margin: auto;
 }
 
 .sectionOne h1 {
@@ -76,21 +79,4 @@
   	width: 20px;
 	text-align: center;
 	line-height: 20px;
-}
-
-/**************************************** Media queries ****************************************/
-
-@media screen and (max-width: 425px) {
-	.sectionOne form .search {
-		display: none;
-	}
-	.sectionOne form .mobileSearch {
-		display: initial;
-	}
-}
-
-@media screen and (max-width: 786px) {
-	.sectionOne .filters button {
-		margin-bottom: 5px;
-	}
 }
