@@ -1,8 +1,9 @@
 /**************************************** sectionThree ****************************************/
 .sectionThree {
-	width:1350px;
-	min-width: 375px;
+	max-width: 1350px;
+	min-width: 320px;
 	margin: auto;
+	margin-top: 30px;
 }
 
 .sectionThree .description {
