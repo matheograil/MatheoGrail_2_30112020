@@ -1,7 +1,7 @@
 /**************************************** sectionTwo ****************************************/
 .sectionTwo {
-	width: 1350px;
-	min-width: 375px;
+	max-width: 1350px;
+	min-width: 320px;
 	margin: auto;
 	padding: 15px;
 	display: flex;
@@ -94,7 +94,6 @@
 	background-color: white;
 	margin: 15px;
 	display: flex;
-	flex-wrap: nowrap;
 }
 
 .sectionTwo .mostpopular .elements a .element img {
