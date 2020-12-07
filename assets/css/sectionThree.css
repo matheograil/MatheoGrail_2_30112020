@@ -7,7 +7,7 @@
 }
 
 .sectionThree .description {
-	font-size: 1.25em;
+	font-size: 20px;
 }
 
 .sectionThree .elements {
@@ -16,7 +16,7 @@
 }
 
 .sectionThree .elements .elementFirstType {
-	box-shadow: 0px 0px 16px 0px rgba(119, 119, 119, 0.3);
+	box-shadow: 0px 0px 16px 0px rgba(119, 119, 119, 0.3); 
 	-webkit-box-shadow: 0px 0px 16px 0px rgba(119, 119, 119, 0.3);
 	border-radius: 20px;
 	height: 455px;
@@ -71,4 +71,11 @@
 .sectionThree .elements .info {
 	margin: 15px;
 	line-height: 10px;
+}
+
+/**************************************** Media Queries ****************************************/
+@media only screen and (max-width: 1385px) {
+	.sectionThree {
+		display: none;
+	}
 }
