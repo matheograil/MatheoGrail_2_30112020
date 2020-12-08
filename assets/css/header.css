@@ -1,21 +1,22 @@
 /**************************************** Header ****************************************/
 header {
-	margin: auto;
 	max-width: 1350px;
 	min-width: 320px;
+	margin: auto;
 	display: flex;
 	justify-content: space-between;
 	padding: 15px;
+	align-items: center;
 }
 
-header a img {
+header a h1 img {
 	width: 100px;
-    height: 45px;
+	height: 45px;
 }
 
 header nav ul {
     list-style-type: none;
-    display: flex;
+	display: flex;
 }
 
 header nav ul .register {
@@ -24,4 +25,15 @@ header nav ul .register {
 
 header nav li {
 	margin-left: 70px;
+}
+
+/**************************************** Media Queries ****************************************/
+@media only screen and (max-width: 640px) {
+	header nav ul .accomodations, .activities {
+		display: none;
+	}
+
+	header nav li {
+		margin-left: 0px;
+	}
 }

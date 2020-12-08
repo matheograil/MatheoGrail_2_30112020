@@ -7,7 +7,8 @@
 }
 
 .sectionThree .description {
-	font-size: 1.25em;
+	font-size: 20px;
+	margin-bottom: 20px;
 }
 
 .sectionThree .elements {
@@ -15,15 +16,15 @@
 	flex-wrap: wrap;
 }
 
-.sectionThree .elements .elementFirstType {
-	box-shadow: 0px 0px 16px 0px rgba(119, 119, 119, 0.3);
+.sectionThree .elements a .elementFirstType {
+	box-shadow: 0px 0px 16px 0px rgba(119, 119, 119, 0.3); 
 	-webkit-box-shadow: 0px 0px 16px 0px rgba(119, 119, 119, 0.3);
 	border-radius: 20px;
 	height: 455px;
 	margin-right: 30px;
 }
 
-.sectionThree .elements .elementFirstType img {
+.sectionThree .elements a .elementFirstType img {
 	border-top-right-radius: 20px;
 	border-top-left-radius: 20px;
 	width: 315px;
@@ -31,7 +32,12 @@
     object-fit: cover;
 }
 
-.sectionThree .elements .elementSecondType {
+.sectionThree .elements a .info {
+	margin: 15px;
+	line-height: 10px;
+}
+
+.sectionThree .elements a .elementSecondType {
 	box-shadow: 0px 0px 16px 0px rgba(119, 119, 119, 0.3);
 	-webkit-box-shadow: 0px 0px 16px 0px rgba(119, 119, 119, 0.3);
 	border-radius: 20px;
@@ -39,7 +45,7 @@
 	margin-bottom: 30px;
 }
 
-.sectionThree .elements .elementSecondType img {
+.sectionThree .elements a .elementSecondType img {
 	border-top-right-radius: 20px;
 	border-top-left-radius: 20px;
 	width: 315px;
@@ -47,16 +53,15 @@
     object-fit: cover;
 }
 
-.sectionThree .elements .elementThirdType {
+.sectionThree .elements a .elementThirdType {
 	box-shadow: 0px 0px 16px 0px rgba(119, 119, 119, 0.3);
 	-webkit-box-shadow: 0px 0px 16px 0px rgba(119, 119, 119, 0.3);
 	border-radius: 20px;
-	width: auto;
 	height: 192px;
 	margin-bottom: 30px;
 }
 
-.sectionThree .elements .elementThirdType img {
+.sectionThree .elements a .elementThirdType img {
 	border-top-right-radius: 20px;
 	border-top-left-radius: 20px;
 	width: 315px;
@@ -68,7 +73,9 @@
 	margin-right: 30px;
 }
 
-.sectionThree .elements .info {
-	margin: 15px;
-	line-height: 10px;
+/**************************************** Media Queries ****************************************/
+@media only screen and (max-width: 1385px) {
+	.sectionThree {
+		display: none;
+	}
 }

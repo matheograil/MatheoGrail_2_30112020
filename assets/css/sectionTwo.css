@@ -22,7 +22,7 @@
 }
 
 .sectionTwo .accommodations .description {
-	font-size: 1.25em;
+	font-size: 20px;
 }
 
 .sectionTwo .accommodations .elements {
@@ -54,7 +54,7 @@
 }
 
 .sectionTwo .accommodations .elements a .element .info .price {
-	font-size: 0.8em;
+	font-size: 13px;
 }
 
 .sectionTwo .mostpopular {
@@ -72,7 +72,7 @@
 }
 
 .sectionTwo .mostpopular .description {
-	font-size: 1.25em;
+	font-size: 20px;
 	width: 100%;
 }
 
@@ -105,9 +105,70 @@
 }
 
 .sectionTwo .mostpopular .elements a .element .info {
+	position: relative;
 	margin: 15px;
 }
 
 .sectionTwo .mostpopular .elements a .element .info .price {
-	font-size: 0.8em;
+	font-size: 13px;
+}
+
+.sectionTwo .mostpopular .elements a .element .info .rating {
+	position: absolute;
+	bottom: 0; 
+}
+
+/**************************************** Media Queries ****************************************/
+@media only screen and (max-width: 1395px) {
+	.sectionTwo .accommodations .elements {
+		justify-content: space-evenly;
+	}
+
+	.sectionTwo .mostpopular .elements {
+		justify-content: space-evenly;
+	}
+
+	.sectionTwo .mostpopular {
+		width: 320px;
+	}
+	
+	.sectionTwo .mostpopular .elements a .element {
+		width: 290px;
+	}
+}
+
+@media only screen and (max-width: 1310px) {
+	.sectionTwo .accommodations {
+		margin-bottom: 30px;
+	}
+
+	.sectionTwo .mostpopular {
+		margin-left: 0;
+		width: 825px;
+	}
+
+	.sectionTwo .mostpopular .elements a .element {
+		width: 245px;
+		height: 210px;
+		display: block;
+	}
+
+	.sectionTwo .mostpopular .elements a .element img {
+		border-bottom-left-radius: 0;
+		border-top-left-radius: 15px;
+		border-top-right-radius: 15px;
+		width: 237px;
+		height: 110px;
+		margin-bottom: 0;
+	}
+
+	.sectionTwo .mostpopular .elements a .element .info {
+		margin: 5px 20px 0 20px;
+		position: static;
+	}
+
+	.sectionTwo .mostpopular .elements a .element .info .rating {
+		position: static;
+		bottom: auto;
+	}
 }
