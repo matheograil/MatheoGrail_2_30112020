@@ -125,7 +125,7 @@
 	}
 
 	.sectionTwo .mostpopular .elements {
-		justify-content: space-around;
+		justify-content: space-evenly;
 	}
 
 	.sectionTwo .mostpopular {
@@ -149,8 +149,8 @@
 
 	.sectionTwo .mostpopular .elements a .element {
 		width: 245px;
-		height: 190px;
-		display: flow-root;
+		height: 210px;
+		display: block;
 	}
 
 	.sectionTwo .mostpopular .elements a .element img {
@@ -158,12 +158,12 @@
 		border-top-left-radius: 15px;
 		border-top-right-radius: 15px;
 		width: 237px;
-		height: 100px;
+		height: 110px;
 		margin-bottom: 0;
 	}
 
 	.sectionTwo .mostpopular .elements a .element .info {
-		margin-top: 0;
+		margin: 5px 20px 0 20px;
 		position: static;
 	}
 

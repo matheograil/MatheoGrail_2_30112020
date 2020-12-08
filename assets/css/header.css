@@ -1,15 +1,15 @@
 /**************************************** Header ****************************************/
 header {
-	margin: auto;
 	max-width: 1350px;
 	min-width: 320px;
+	margin: auto;
 	display: flex;
 	justify-content: space-between;
 	padding: 15px;
 	align-items: center;
 }
 
-header a img {
+header a h1 img {
 	width: 100px;
 	height: 45px;
 }
