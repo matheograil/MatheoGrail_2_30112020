@@ -1,7 +1,6 @@
 /**************************************** sectionTwo ****************************************/
 .sectionTwo {
 	max-width: 1350px;
-	min-width: 320px;
 	margin: auto;
 	padding: 15px;
 	display: flex;
@@ -115,60 +114,79 @@
 
 .sectionTwo .mostpopular .elements a .element .info .rating {
 	position: absolute;
-	bottom: 0; 
+	bottom: 0;
 }
 
 /**************************************** Media Queries ****************************************/
 @media only screen and (max-width: 1395px) {
-	.sectionTwo .accommodations .elements {
-		justify-content: space-evenly;
+	.sectionTwo {
+		flex-wrap: wrap-reverse;
+	}
+
+	.sectionTwo .mostpopular {
+		margin-bottom: 30px;
+		margin-left: 0;
+		width: 100%;
+	}
+
+	.sectionTwo .accommodations {
+		margin-bottom: 30px;
+		margin-left: 0;
+		width: 100%;
 	}
 
 	.sectionTwo .mostpopular .elements {
 		justify-content: space-evenly;
 	}
-
-	.sectionTwo .mostpopular {
-		width: 320px;
-	}
 	
-	.sectionTwo .mostpopular .elements a .element {
-		width: 290px;
+	.sectionTwo .accommodations .elements {
+		justify-content: space-evenly;
 	}
 }
 
-@media only screen and (max-width: 1310px) {
-	.sectionTwo .accommodations {
-		margin-bottom: 30px;
+@media only screen and (max-width: 725px) {
+	body {
+		margin: 0;
+	}
+
+	.sectionTwo {
+		padding: 0;
 	}
 
 	.sectionTwo .mostpopular {
-		margin-left: 0;
-		width: 825px;
-	}
-
-	.sectionTwo .mostpopular .elements a .element {
-		width: 245px;
-		height: 210px;
-		display: block;
-	}
-
-	.sectionTwo .mostpopular .elements a .element img {
-		border-bottom-left-radius: 0;
-		border-top-left-radius: 15px;
-		border-top-right-radius: 15px;
-		width: 237px;
-		height: 110px;
+		padding: 15px;
+		border-radius: 0;
 		margin-bottom: 0;
 	}
 
-	.sectionTwo .mostpopular .elements a .element .info {
-		margin: 5px 20px 0 20px;
-		position: static;
+	.sectionTwo .mostpopular p {
+		margin: 20px 5px 20px 5px;
 	}
 
-	.sectionTwo .mostpopular .elements a .element .info .rating {
-		position: static;
-		bottom: auto;
+	.sectionTwo .mostpopular .elements a .element {
+		width: auto;
+		min-width: 273px;
+		max-width: 332px;
+		margin: 5px;
+	}
+
+	.sectionTwo .accommodations {
+		padding: 15px;
+		border-radius: 0;
+		background-color: white;
+	}
+
+	.sectionTwo .accommodations p {
+		margin: 20px 5px 20px 5px;
+	}
+
+	.sectionTwo .accommodations .elements a .element {
+		margin: 5px;
+	}
+
+	.sectionTwo .accommodations .elements a .element img {
+		width: calc(100% - 8px);
+		min-width: 273px;
+		max-width: 332px;
 	}
 }
