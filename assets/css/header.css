@@ -1,7 +1,6 @@
 /**************************************** Header ****************************************/
 header {
 	max-width: 1350px;
-	min-width: 320px;
 	margin: auto;
 	display: flex;
 	justify-content: space-between;

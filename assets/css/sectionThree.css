@@ -1,7 +1,6 @@
 /**************************************** sectionThree ****************************************/
 .sectionThree {
 	max-width: 1350px;
-	min-width: 320px;
 	margin: auto;
 	margin-top: 30px;
 }
@@ -74,7 +73,7 @@
 }
 
 /**************************************** Media Queries ****************************************/
-@media only screen and (max-width: 1385px) {
+@media only screen and (max-width: 1395px) {
 	.sectionThree {
 		display: none;
 	}

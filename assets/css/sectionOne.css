@@ -1,7 +1,6 @@
 /**************************************** sectionOne ****************************************/
 .sectionOne {
 	max-width: 1350px;
-	min-width: 320px;
 	margin: auto;
 	padding: 15px;
 }
@@ -97,7 +96,7 @@
 }
 
 /**************************************** Media Queries ****************************************/
-@media only screen and (max-width: 411px) {
+@media only screen and (max-width: 396px) {
 	.sectionOne form input {
 		width: 80%;
 	}
