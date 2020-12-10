@@ -16,7 +16,7 @@
 	flex-wrap: wrap;
 }
 
-.sectionTwo .accommodations p {
+.sectionTwo .accommodations p, .sectionTwo .mostpopular p {
     margin: 15px;
 }
 
@@ -24,7 +24,7 @@
 	font-size: 20px;
 }
 
-.sectionTwo .accommodations .elements {
+.sectionTwo .accommodations .elements, .sectionTwo .mostpopular .elements {
 	display: flex;
 	flex-wrap: wrap;
 }
@@ -66,10 +66,6 @@
 	flex-wrap: wrap;
 }
 
-.sectionTwo .mostpopular p {
-    margin: 15px;
-}
-
 .sectionTwo .mostpopular .description {
 	font-size: 20px;
 	width: 100%;
@@ -77,11 +73,6 @@
 
 .sectionTwo .mostpopular .description .fa-chart-line {
 	float: right;
-}
-
-.sectionTwo .mostpopular .elements {
-	display: flex;
-	flex-wrap: wrap;
 }
 
 .sectionTwo .mostpopular .elements a .element {
