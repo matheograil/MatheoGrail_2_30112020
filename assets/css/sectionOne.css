@@ -98,7 +98,7 @@
 /**************************************** Media Queries ****************************************/
 @media only screen and (max-width: 396px) {
 	.sectionOne form input {
-		width: 80%;
+		width: 100%;
 	}
 	
 	.sectionOne form .buttons button {
