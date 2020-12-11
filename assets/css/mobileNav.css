@@ -1,0 +1,21 @@
+.mobileNav {
+    display: none;
+}
+
+.mobileNav a {
+    border-bottom: 2px solid #F2F2F2;
+    width: 50%;
+    height: 30px;
+    text-align: center;
+}
+
+.mobileNav a:hover {
+    border-bottom: 2px solid #0065FC;
+}
+
+/**************************************** Media Queries ****************************************/
+@media only screen and (max-width: 640px) {
+	.mobileNav {
+        display: flex;
+    }
+}

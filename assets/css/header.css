@@ -4,7 +4,7 @@ header {
 	margin: auto;
 	display: flex;
 	justify-content: space-between;
-	padding: 15px;
+	padding: 0 15px 0 15px;
 	align-items: center;
 }
 
@@ -16,6 +16,10 @@ header a h1 img {
 header nav ul {
     list-style-type: none;
 	display: flex;
+	height: 102px;
+	margin-top: 0;
+	margin-bottom: 0;
+	line-height: 102px;
 }
 
 header nav ul .register {
@@ -24,6 +28,11 @@ header nav ul .register {
 
 header nav li {
 	margin-left: 70px;
+}
+
+header nav li:hover {
+	border-top: 2px solid #0065FC;
+	width : max-content;
 }
 
 /**************************************** Media Queries ****************************************/

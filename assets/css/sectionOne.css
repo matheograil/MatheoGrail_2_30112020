@@ -30,6 +30,7 @@
   	font-size: 16px;
 	font-family: 'Raleway', sans-serif;
 	margin: 0;
+	width: 197px;
 }
 
 .sectionOne form ::placeholder {
@@ -71,6 +72,10 @@
 	padding-left: 50px;
 }
 
+.sectionOne .filters .element:hover {
+	color: #0065FC;
+}
+
 .sectionOne .filters .element .circle {
 	position: absolute;
 	border-radius: 50%;
@@ -97,6 +102,10 @@
 
 /**************************************** Media Queries ****************************************/
 @media only screen and (max-width: 396px) {
+	.sectionOne .filters .description {
+		width: 100%;
+	}
+
 	.sectionOne form input {
 		width: 100%;
 	}
