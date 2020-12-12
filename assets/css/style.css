@@ -4,17 +4,17 @@
 /* Header */
 @import url("header.css");
 
-/* Mobile Nav */
+/* Mobile Navigation */
 @import url("mobileNav.css");
 
-/* sectionOne */
-@import url("sectionOne.css");
+/* Search */
+@import url("search.css");
 
-/* sectionTwo */
-@import url("sectionTwo.css");
+/* Accommodations */
+@import url("accommodations.css");
 
-/* sectionThree */
-@import url("sectionThree.css");
+/* Activities */
+@import url("activities.css");
 
 /* Footer */
 @import url("footer.css");

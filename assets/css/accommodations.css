@@ -1,5 +1,5 @@
-/**************************************** sectionTwo ****************************************/
-.sectionTwo {
+/**************************************** Accommodations ****************************************/
+#accommodations {
 	max-width: 1350px;
 	margin: auto;
 	padding: 15px;
@@ -7,7 +7,7 @@
 	flex-wrap: wrap;
 }
 
-.sectionTwo .accommodations {
+#accommodations .accommodationsBlock {
 	padding: 20px;
 	border-radius: 15px;
 	background-color: #F2F2F2;
@@ -16,20 +16,20 @@
 	flex-wrap: wrap;
 }
 
-.sectionTwo .accommodations p, .sectionTwo .mostpopular p {
+#accommodations .accommodationsBlock p, #accommodations .mostPopularBlock p {
     margin: 15px;
 }
 
-.sectionTwo .accommodations .description {
+#accommodations .accommodationsBlock .description {
 	font-size: 20px;
 }
 
-.sectionTwo .accommodations .elements, .sectionTwo .mostpopular .elements {
+#accommodations .accommodationsBlock .elements, #accommodations .mostPopularBlock .elements {
 	display: flex;
 	flex-wrap: wrap;
 }
 
-.sectionTwo .accommodations .elements a .element {
+#accommodations .accommodationsBlock .elements a .accommodation {
 	box-shadow: 0px 0px 16px 0px rgba(119, 119, 119, 0.3);
 	-webkit-box-shadow: 0px 0px 16px 0px rgba(119, 119, 119, 0.3);
 	border-radius: 20px;
@@ -38,7 +38,7 @@
 	margin: 15px;
 }
 
-.sectionTwo .accommodations .elements a .element img {
+#accommodations .accommodationsBlock .elements a .accommodation img {
 	border-top-right-radius: 15px;
 	border-top-left-radius: 15px;
 	width: 237px;
@@ -47,16 +47,16 @@
     object-fit: cover;
 }
 
-.sectionTwo .accommodations .elements a .element .info {
+#accommodations .accommodationsBlock .elements a .accommodation .info {
 	margin-left: 20px;
     margin-right: 20px;
 }
 
-.sectionTwo .accommodations .elements a .element .info .price {
+#accommodations .accommodationsBlock .elements a .accommodation .info .price {
 	font-size: 13px;
 }
 
-.sectionTwo .mostpopular {
+#accommodations .mostPopularBlock {
 	padding: 20px;
 	margin-left: 40px;
 	border-radius: 15px;
@@ -66,16 +66,16 @@
 	flex-wrap: wrap;
 }
 
-.sectionTwo .mostpopular .description {
+#accommodations .mostPopularBlock .description {
 	font-size: 20px;
 	width: 100%;
 }
 
-.sectionTwo .mostpopular .description .fa-chart-line {
+#accommodations .mostPopularBlock .description .fa-chart-line {
 	float: right;
 }
 
-.sectionTwo .mostpopular .elements a .element {
+#accommodations .mostPopularBlock .elements a .mostPopular {
 	box-shadow: 0px 0px 16px 0px rgba(119, 119, 119, 0.3);
 	-webkit-box-shadow: 0px 0px 16px 0px rgba(119, 119, 119, 0.3);
 	border-radius: 20px;
@@ -86,7 +86,7 @@
 	display: flex;
 }
 
-.sectionTwo .mostpopular .elements a .element img {
+#accommodations .mostPopularBlock .elements a .mostPopular img {
 	border-bottom-left-radius: 15px;
 	border-top-left-radius: 15px;
 	width: 120px;
@@ -94,84 +94,84 @@
 	object-fit: cover;
 }
 
-.sectionTwo .mostpopular .elements a .element .info {
+#accommodations .mostPopularBlock .elements a .mostPopular .info {
 	position: relative;
 	margin: 15px;
 }
 
-.sectionTwo .mostpopular .elements a .element .info .price {
+#accommodations .mostPopularBlock .elements a .mostPopular .info .price {
 	font-size: 13px;
 }
 
-.sectionTwo .mostpopular .elements a .element .info .rating {
+#accommodations .mostPopularBlock .elements a .mostPopular .info .rating {
 	position: absolute;
 	bottom: 0;
 }
 
 /**************************************** Media Queries ****************************************/
 @media only screen and (max-width: 1395px) {
-	.sectionTwo {
+	#accommodations {
 		flex-wrap: wrap-reverse;
 	}
 
-	.sectionTwo .mostpopular {
+	#accommodations .mostPopularBlock {
 		margin-bottom: 30px;
 		margin-left: 0;
 		width: 100%;
 	}
 
-	.sectionTwo .accommodations {
+	#accommodations .accommodationsBlock {
 		margin-bottom: 30px;
 		margin-left: 0;
 		width: 100%;
 	}
 
-	.sectionTwo .mostpopular .elements {
+	#accommodations .mostPopularBlock .elements {
 		justify-content: space-evenly;
 	}
 	
-	.sectionTwo .accommodations .elements {
+	#accommodations .accommodationsBlock .elements {
 		justify-content: space-evenly;
 	}
 }
 
 @media only screen and (max-width: 725px) {
-	.sectionTwo {
+	#accommodations {
 		padding: 0;
 	}
 
-	.sectionTwo .mostpopular {
+	#accommodations .mostPopularBlock {
 		padding: 15px;
 		border-radius: 0;
 		margin-bottom: 0;
 	}
 
-	.sectionTwo .mostpopular p {
+	#accommodations .mostPopularBlock p {
 		margin: 20px 5px 20px 5px;
 	}
 
-	.sectionTwo .mostpopular .elements a .element {
+	#accommodations .mostPopularBlock .elements a .mostPopular {
 		width: auto;
 		min-width: 273px;
 		max-width: 332px;
 		margin: 5px;
 	}
 
-	.sectionTwo .accommodations {
+	#accommodations .accommodationsBlock {
 		padding: 15px;
 		border-radius: 0;
 		background-color: white;
 	}
 
-	.sectionTwo .accommodations p {
+	#accommodations .accommodationsBlock p {
 		margin: 20px 5px 20px 5px;
 	}
 
-	.sectionTwo .accommodations .elements a .element {
+	#accommodations .accommodationsBlock .elements a .accommodation {
 		margin: 5px;
 	}
 
-	.sectionTwo .accommodations .elements a .element img {
+	#accommodations .accommodationsBlock .elements a .accommodation img {
 		width: calc(100% - 8px);
 		min-width: 273px;
 		max-width: 332px;
