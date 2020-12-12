@@ -30,8 +30,8 @@
 }
 
 #accommodations .accommodationsBlock .elements a .accommodation {
-	box-shadow: 0px 0px 16px 0px rgba(119, 119, 119, 0.3);
-	-webkit-box-shadow: 0px 0px 16px 0px rgba(119, 119, 119, 0.3);
+	box-shadow: 0 0 16px 0 rgba(119, 119, 119, 0.3);
+	-webkit-box-shadow: 0 0 16px 0 rgba(119, 119, 119, 0.3);
 	border-radius: 20px;
 	height: 190px;
 	background-color: white;
@@ -76,8 +76,8 @@
 }
 
 #accommodations .mostPopularBlock .elements a .mostPopular {
-	box-shadow: 0px 0px 16px 0px rgba(119, 119, 119, 0.3);
-	-webkit-box-shadow: 0px 0px 16px 0px rgba(119, 119, 119, 0.3);
+	box-shadow: 0 0 16px 0 rgba(119, 119, 119, 0.3);
+	-webkit-box-shadow: 0 0 16px 0 rgba(119, 119, 119, 0.3);
 	border-radius: 20px;
 	width: 375px;
 	height: 133px;
