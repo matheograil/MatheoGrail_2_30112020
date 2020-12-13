@@ -25,6 +25,7 @@
 }
 
 .search form input {
+	-webkit-appearance: none;
 	padding: 15px;
 	border: 1px solid #F2F2F2;
   	font-size: 16px;
@@ -122,7 +123,7 @@
 	}
 
 	.search form .buttons .mobileSearch {
-		display: initial;
+		display: block;
 	}
 }
 
