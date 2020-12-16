@@ -16,7 +16,7 @@
 	flex-wrap: wrap;
 }
 
-#accommodations .accommodationsBlock p, #accommodations .mostPopularBlock p {
+#accommodations .accommodationsBlock h3, #accommodations .mostPopularBlock h3 {
     margin: 15px;
 }
 
@@ -146,7 +146,7 @@
 		margin-bottom: 0;
 	}
 
-	#accommodations .mostPopularBlock p {
+	#accommodations .mostPopularBlock h3 {
 		margin: 20px 5px 20px 5px;
 	}
 
@@ -163,7 +163,7 @@
 		background-color: white;
 	}
 
-	#accommodations .accommodationsBlock p {
+	#accommodations .accommodationsBlock h3 {
 		margin: 20px 5px 20px 5px;
 	}
 
