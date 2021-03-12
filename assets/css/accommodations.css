@@ -1,19 +1,19 @@
 /**************************************** Accommodations ****************************************/
 #accommodations {
-	max-width: 1350px;
-	margin: auto;
-	padding: 15px;
-	display: flex;
-	flex-wrap: wrap;
+    max-width: 1350px;
+    margin: auto;
+    padding: 15px;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 #accommodations .accommodationsBlock {
-	padding: 20px;
-	border-radius: 15px;
-	background-color: #F2F2F2;
-	width: 825px;
-	display: flex;
-	flex-wrap: wrap;
+    padding: 20px;
+    border-radius: 15px;
+    background-color: #F2F2F2;
+    width: 825px;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 #accommodations .accommodationsBlock h3, #accommodations .mostPopularBlock h3 {
@@ -21,159 +21,159 @@
 }
 
 #accommodations .accommodationsBlock .description {
-	font-size: 20px;
+    font-size: 20px;
 }
 
 #accommodations .accommodationsBlock .elements, #accommodations .mostPopularBlock .elements {
-	display: flex;
-	flex-wrap: wrap;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 #accommodations .accommodationsBlock .elements a .accommodation {
-	box-shadow: 0 0 16px 0 rgba(119, 119, 119, 0.3);
-	-webkit-box-shadow: 0 0 16px 0 rgba(119, 119, 119, 0.3);
-	border-radius: 20px;
-	height: 190px;
-	background-color: white;
-	margin: 15px;
+    box-shadow: 0 0 16px 0 rgba(119, 119, 119, 0.3);
+    -webkit-box-shadow: 0 0 16px 0 rgba(119, 119, 119, 0.3);
+    border-radius: 20px;
+    height: 190px;
+    background-color: white;
+    margin: 15px;
 }
 
 #accommodations .accommodationsBlock .elements a .accommodation img {
-	border-top-right-radius: 15px;
-	border-top-left-radius: 15px;
-	width: 237px;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+    width: 237px;
     height: 110px;
     margin: 4px;
     object-fit: cover;
 }
 
 #accommodations .accommodationsBlock .elements a .accommodation .info {
-	margin-left: 20px;
+    margin-left: 20px;
     margin-right: 20px;
 }
 
 #accommodations .accommodationsBlock .elements a .accommodation .info .price {
-	font-size: 13px;
+    font-size: 13px;
 }
 
 #accommodations .mostPopularBlock {
-	padding: 20px;
-	margin-left: 40px;
-	border-radius: 15px;
-	background-color: #F2F2F2;
-	width: 405px;
-	display: flex;
-	flex-wrap: wrap;
+    padding: 20px;
+    margin-left: 40px;
+    border-radius: 15px;
+    background-color: #F2F2F2;
+    width: 405px;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 #accommodations .mostPopularBlock .description {
-	font-size: 20px;
-	width: 100%;
+    font-size: 20px;
+    width: 100%;
 }
 
 #accommodations .mostPopularBlock .description .fa-chart-line {
-	float: right;
+    float: right;
 }
 
 #accommodations .mostPopularBlock .elements a .mostPopular {
-	box-shadow: 0 0 16px 0 rgba(119, 119, 119, 0.3);
-	-webkit-box-shadow: 0 0 16px 0 rgba(119, 119, 119, 0.3);
-	border-radius: 20px;
-	width: 375px;
-	height: 133px;
-	background-color: white;
-	margin: 15px;
-	display: flex;
+    box-shadow: 0 0 16px 0 rgba(119, 119, 119, 0.3);
+    -webkit-box-shadow: 0 0 16px 0 rgba(119, 119, 119, 0.3);
+    border-radius: 20px;
+    width: 375px;
+    height: 133px;
+    background-color: white;
+    margin: 15px;
+    display: flex;
 }
 
 #accommodations .mostPopularBlock .elements a .mostPopular img {
-	border-bottom-left-radius: 15px;
-	border-top-left-radius: 15px;
-	width: 120px;
+    border-bottom-left-radius: 15px;
+    border-top-left-radius: 15px;
+    width: 120px;
     margin: 4px;
-	object-fit: cover;
+    object-fit: cover;
 }
 
 #accommodations .mostPopularBlock .elements a .mostPopular .info {
-	position: relative;
-	margin: 15px;
+    position: relative;
+    margin: 15px;
 }
 
 #accommodations .mostPopularBlock .elements a .mostPopular .info .price {
-	font-size: 13px;
+    font-size: 13px;
 }
 
 #accommodations .mostPopularBlock .elements a .mostPopular .info .rating {
-	position: absolute;
-	bottom: 0;
+    position: absolute;
+    bottom: 0;
 }
 
 /**************************************** Media Queries ****************************************/
 @media only screen and (max-width: 1395px) {
-	#accommodations {
-		flex-wrap: wrap-reverse;
-	}
+    #accommodations {
+        flex-wrap: wrap-reverse;
+    }
 
-	#accommodations .mostPopularBlock {
-		margin-bottom: 30px;
-		margin-left: 0;
-		width: 100%;
-	}
+    #accommodations .mostPopularBlock {
+        margin-bottom: 30px;
+        margin-left: 0;
+        width: 100%;
+    }
 
-	#accommodations .accommodationsBlock {
-		margin-bottom: 30px;
-		margin-left: 0;
-		width: 100%;
-	}
+    #accommodations .accommodationsBlock {
+        margin-bottom: 30px;
+        margin-left: 0;
+        width: 100%;
+    }
 
-	#accommodations .mostPopularBlock .elements {
-		justify-content: space-evenly;
-	}
-	
-	#accommodations .accommodationsBlock .elements {
-		justify-content: space-evenly;
-	}
+    #accommodations .mostPopularBlock .elements {
+        justify-content: space-evenly;
+    }
+    
+    #accommodations .accommodationsBlock .elements {
+        justify-content: space-evenly;
+    }
 }
 
 @media only screen and (max-width: 725px) {
-	#accommodations {
-		padding: 0;
-	}
+    #accommodations {
+        padding: 0;
+    }
 
-	#accommodations .mostPopularBlock {
-		padding: 15px;
-		border-radius: 0;
-		margin-bottom: 0;
-	}
+    #accommodations .mostPopularBlock {
+        padding: 15px;
+        border-radius: 0;
+        margin-bottom: 0;
+    }
 
-	#accommodations .mostPopularBlock h3 {
-		margin: 20px 5px 20px 5px;
-	}
+    #accommodations .mostPopularBlock h3 {
+        margin: 20px 5px 20px 5px;
+    }
 
-	#accommodations .mostPopularBlock .elements a .mostPopular {
-		width: auto;
-		min-width: 273px;
-		max-width: 332px;
-		margin: 5px;
-	}
+    #accommodations .mostPopularBlock .elements a .mostPopular {
+        width: auto;
+        min-width: 273px;
+        max-width: 332px;
+        margin: 5px;
+    }
 
-	#accommodations .accommodationsBlock {
-		padding: 15px;
-		border-radius: 0;
-		background-color: white;
-	}
+    #accommodations .accommodationsBlock {
+        padding: 15px;
+        border-radius: 0;
+        background-color: white;
+    }
 
-	#accommodations .accommodationsBlock h3 {
-		margin: 20px 5px 20px 5px;
-	}
+    #accommodations .accommodationsBlock h3 {
+        margin: 20px 5px 20px 5px;
+    }
 
-	#accommodations .accommodationsBlock .elements a .accommodation {
-		margin: 5px;
-	}
+    #accommodations .accommodationsBlock .elements a .accommodation {
+        margin: 5px;
+    }
 
-	#accommodations .accommodationsBlock .elements a .accommodation img {
-		width: calc(100% - 8px);
-		min-width: 273px;
-		max-width: 332px;
-	}
+    #accommodations .accommodationsBlock .elements a .accommodation img {
+        width: calc(100% - 8px);
+        min-width: 273px;
+        max-width: 332px;
+    }
 }

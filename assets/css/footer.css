@@ -7,7 +7,7 @@ footer {
 
 footer .nav {
     max-width: 1350px;
-	margin: auto;
+    margin: auto;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between
